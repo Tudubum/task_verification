@@ -1,38 +1,533 @@
-.App {
-  text-align: center;
+body{
+    margin:0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*          HEADER          */
+.header{
+    margin:0;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: #85586F;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.loginRegister{
+    margin:0;
+    padding: 0 60px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+    height: 70px;
+    background-color: #85586F;
+}
+
+.placeForm{
+    margin: 20px 50px;
+    
+}
+
+.forma{
+    background-color: #DFD3C3;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: auto;
+    padding: 20px;
+    width: 320px;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+   
+}
+
+.placeForm{
+    background-color: #DFD3C3;
+    border-radius: 20px;
+    height: auto;
+    padding: 20px;
+    width: 320px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.placeForm input {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+     border: 0;
+     box-sizing: border-box;
+    font-size: 18px;
+    outline: 0;
+    color:rgb(40, 40, 40);
+    padding: 4px 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .placeForm .submit{
+    margin-top: 20px;
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    padding: 8px 20px 8px 20px;
+    background-color: #85586F;
+    border-radius: 10px;
+     border: 0;
+     box-sizing: border-box;
   }
-  to {
-    transform: rotate(360deg);
+
+  .placeForm .submit:hover{
+    background-color: #422b37;
+    color: white;
   }
+
+  .placeForm label{
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+
+
+
+.forma span{
+    color: red;
+    font-size: 12px;
+}
+
+.loginForm{
+    background-color: #DFD3C3;
+    border-radius: 20px;
+    height: auto;
+    padding: 20px;
+    width: 320px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.editPlaceForm{
+    background-color: #DFD3C3;
+    border-radius: 20px;
+    height: auto;
+    padding: 20px;
+    width: 320px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.editPlaceForm input{
+    height: 100%;
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+     border: 0;
+     box-sizing: border-box;
+    font-size: 18px;
+    outline: 0;
+    color:rgb(40, 40, 40);
+    padding: 4px 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.editPlaceForm .submit{
+    margin-top: 20px;
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    padding: 8px 20px 8px 20px;
+    background-color: #85586F;
+    border-radius: 10px;
+     border: 0;
+     box-sizing: border-box;
+}
+
+
+.loginForm input{
+    height: 100%;
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+     border: 0;
+     box-sizing: border-box;
+    font-size: 18px;
+    outline: 0;
+    color:rgb(40, 40, 40);
+    padding: 4px 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.loginForm .submit{
+    margin-top: 20px;
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    padding: 8px 20px 8px 20px;
+    background-color: #85586F;
+    border-radius: 10px;
+     border: 0;
+     box-sizing: border-box;
+  }
+
+  .loginForm .submit:hover{
+    background-color: #422b37;
+    color: white;
+  }
+ 
+
+.title {
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .forma input {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+     border: 0;
+     box-sizing: border-box;
+    font-size: 18px;
+    outline: 0;
+    color:rgb(40, 40, 40);
+    padding: 4px 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  .forma .submit{
+    margin-top: 20px;
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    padding: 8px 20px 8px 20px;
+    background-color: #85586F;
+    border-radius: 10px;
+     border: 0;
+     box-sizing: border-box;
+  }
+
+  .forma .submit:hover{
+    background-color: #422b37;
+    color: white;
+  }
+
+  .forma label{
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  
+.userBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.userName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.logOutBtn{
+    background-color:#F8EDE3 ;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-right: 5px;
+}
+
+.logOutBtn:hover{
+    background-color: #422b37;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.userioInfoPriePost a{
+    color: black;
+}
+a:hover{
+    color: black;
+}
+
+.homeLink{
+    align-items: center;
+}
+
+.userioInfoPriePost{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 20px;
+    gap: 5px;
+}
+
+.userioInfoPriePost button{
+    background-color: #D0B8A8;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-right: 5px;
+
+}
+
+.userioInfoPriePostb button :hover{
+    background-color: #422b37;
+}
+
+.cardInfo img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    margin: 10px 15px;
+    gap: 10px
+}
+
+.user button{
+    background-color: #D0B8A8;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-right: 5px;
+}
+
+.user a{
+    color: black;
+}
+
+.user a:hover{
+    color: white;
+}
+
+.user button :hover{
+    background-color: #422b37;
+}
+
+.text{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text img{
+    height: 50px;
+}
+
+.SignInForm{
+    text-align: right;
+    padding-bottom: 20px;
+    padding-right: 50px;
+
+}
+
+.SignInForm input{
+    padding: 3px;
+    margin: 3px
+}
+
+.SignInForm .submit{
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #D0B8A8;
+    color: rgb(0, 0, 0);
+}
+
+.SignInForm .submit:hover{
+    background-color: #8e7f75;
+    color: white;
+}
+
+.checkboxas{
+    display: flex;
+    text-align: left;
+    width: 20px !important;
+    padding-left: 0;
+    margin-left: 0;
+    margin-top: 8px;
+}
+
+.text p{
+    padding-right: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+/*                  CONTENT         */
+
+.placeCard {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 40px;
+    justify-content: flex-start;
+}
+
+.userPosts{
+    margin: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.likedPlacesList{
+    margin: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.allUserCards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 15px;
+}
+
+.list{
+    display: flex;
+}
+
+.usersList{
+    background-color: #DFD3C3;
+    border-radius: 20px;
+    height: auto;
+    padding: 20px;
+    width: 320px;
+    height: auto;
+    margin: 30px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.userCardInList{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 10px;
+}
+
+.userCardInList button{
+    background-color: #D0B8A8;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    align-items: right;
+}
+
+.userCardInList button:hover{
+    background-color: #422b37;
+    color: white;
+}
+
+.allUserCards img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.userioInfoPriePost button{
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F8EDE3;
+    color: rgb(0, 0, 0);
+}
+
+.card{
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 390px;
+
+}
+
+.card:hover{
+    box-shadow: #6b6b6b 0px 7px 29px 0px;
+}
+
+.placeCard img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.visasHeader{
+    display: flex;
+    margin: 20px 40px;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: #F8EDE3;
+    font-family: "Roboto", sans-serif;
+    color: #10182f;
+  }
+
+  .info{
+    padding: 10px 15px;
+  }
+
+  .info p{
+    font-size: 14px;
+    font-weight: 100;
+    text-align: justify;
+  }
+
+  .info button{
+    background-color: #D0B8A8;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-right: 5px;
+  }
+
+  button:hover{
+    background-color: #8e7f75;
+    color: white;
+  }
+
+p span{
+    font-style: italic;
+}
+
+/*          FOOTER          */
+
+.footer{
+    background-color: #0C1011;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

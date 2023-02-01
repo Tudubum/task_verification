@@ -1,0 +1,108 @@
+{
+  "place": [
+    {
+      "image": "https://glampinglithuania.lt/wp-content/uploads/2021/03/namelis-nr-3..-1200x720.jpg",
+      "location": "Baltieji Lakajai, Moletų apskritis",
+      "title": "Glamping Lithuania",
+      "about": "Šis namelis išsiskiria tuo, jog yra ypatingai erdvus, o vaizdas pro langą visais metų laikais tiesiog užburia!! Taip pat šiame namelyje rasite ir elipsine vonią. Vieno kambario namelis dviems su peizažu į Baltųjų Lakajų ežerą.",
+      "id": 1,
+      "userId": 0,
+      "likedBy": []
+    },
+    {
+      "image": "https://static.wixstatic.com/media/6f6e26_9c727b29f32c41d68cf62363212006ca~mv2.jpg/v1/fit/w_361,h_241,q_90/6f6e26_9c727b29f32c41d68cf62363212006ca~mv2.jpg",
+      "location": "Kaišiadorys, Lietuva",
+      "title": "Genio kampas Treehouse",
+      "about": "Nepamirštamas poilsis gamtoje su visais patogumais ant ežero kranto. Namelis medyje yra privačioje 9 ha ploto teritorijoje, tad visiškas privatumas garantuotas. Genio kampe galėsite mėgautis ramybe bei gamta net iš 6 metrų aukštyje esančios terasos.",
+      "id": 2,
+      "userId": 2,
+      "likedBy": [
+        0
+      ]
+    },
+    {
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/367191430.jpg?k=5a25cd0a3dce16482def84962ad21a629f030250e2d422dc17d42d19598ee2a9&o=&hp=1",
+      "location": "Kampiškiai, Lietuva",
+      "title": "Cozy ALNUS KIEMAS house",
+      "about": "Maždaug už 36 km nuo Kauno „Žalgirio“ arenos įsikūrusioje apgyvendinimo įstaigoje „ALNUS KIEMAS“, iš kurios atsiveria sodo vaizdai, yra terasa ir kiemelis. Čia veikia nemokamas belaidis internetas. Šio atostogų namelio svečiams siūloma ilsėtis sode ir naudotis lauko kepsnine. Automobilį galima pasistatyti nemokamai.",
+      "id": 3,
+      "userId": 2,
+      "likedBy": []
+    },
+    {
+      "title": "Forest Domes",
+      "image": "https://static.wixstatic.com/media/62c7c8_fad7f6a960894170b7758f825b12e2e5~mv2.png/v1/fill/w_1200,h_799,al_c/62c7c8_fad7f6a960894170b7758f825b12e2e5~mv2.png",
+      "location": "Kuosinės kaimas, Vilniaus rajonas",
+      "about": "Dažnai naujų pojūčių ir gamtos ramybės troškimą nugali patogumas. Šiame projekte būtent to ir siekėme- sukurti prabangų jaukumą gamtos apsuptyje. Todėl be rūpeščių, apsupti miškų ir laukų, galėsite mėgautis ramybe ir jei pasiseks- stebėti netgi stirnas, kurios neretai užsuka pasmalsauti visai netoli kupolų.",
+      "id": 5,
+      "userId": 0,
+      "likedBy": []
+    },
+    {
+      "title": "Petra",
+      "image": "https://www.makalius.lt/wp-content/gallery/petra-jordanija-3-foto/petra2.jpg?v=f414618c4c472a71",
+      "location": "Petra, Jordanija",
+      "about": "Petra – senovės miestas Vakarų Jordanijoje. Įkurtas II–I a. pr. m. e. sandūroje. Nabatėjų karalystės sostinė iki I a. 106 m. užimtas Romos imperijos. Nuo III a. tapo svarbiu prekybos centru prie kelio iš Egipto į Mesopotamiją. Ne kartą nukentėjo per žemės drebėjimus. XII a. užimta kryžiuočių ordino.",
+      "id": 1675147507294,
+      "userId": 1,
+      "likedBy": [
+        1
+      ]
+    },
+    {
+      "title": "Madeira",
+      "image": "https://g.delfi.lt/images/pix/madeira-66945080.jpg",
+      "location": "Madeira",
+      "about": "11 dalykų, dėl kurių verta nukeliauti į gėlėtąją Madeiros salą.",
+      "id": 1675156453914,
+      "userId": 1,
+      "likedBy": [
+        0
+      ]
+    },
+    {
+      "title": "Bali Rice Terrace",
+      "image": "https://media.istockphoto.com/id/515480864/photo/beautiful-rice-terraces-ubud-bali-indonesia.jpg?b=1&s=170667a&w=0&k=20&c=Ck1UVVTk67JmRSYpPZXD1-91pIcQmAKt6SUCwXKruAU=",
+      "location": "Bali",
+      "about": "The best Bali rice terraces offer outstanding landscapes that can fill entire memory cards with stunning snaps. They’re among the must-sees for visits to the island, giving insights into the local way of life. Rice paddies in Bali are part of the people’s heritage. The centuries-old traditional irrigation cooperative called subak lives on through such artistry in nature.",
+      "id": 1675228203573,
+      "userId": 0,
+      "likedBy": []
+    }
+  ],
+  "users": [
+    {
+      "id": 0,
+      "isBanned": false,
+      "level": "admin",
+      "userName": "Giedre",
+      "password": "Giedre1",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNI3kQLeYMnpy05PhEiuzS1rtRmNVL7VKvwcE4ACmQSQT1rRmUO5mHLyjH-mGHq0ueUQY&usqp=CAU"
+    },
+    {
+      "id": 1,
+      "isBanned": false,
+      "level": "user",
+      "userName": "Ruta",
+      "password": "Ruta2",
+      "avatar": "https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+    },
+    {
+      "id": 2,
+      "isBanned": false,
+      "level": "user",
+      "userName": "Laurynas",
+      "password": "Laurynas3",
+      "avatar": "https://img.freepik.com/free-icon/man_318-157599.jpg"
+    },
+    {
+      "userName": "Viktorija",
+      "password": "Viktorija1",
+      "passwordRepeat": "Viktorija1",
+      "avatar": "https://static.vecteezy.com/system/resources/thumbnails/001/993/889/small_2x/beautiful-latin-woman-avatar-character-icon-free-vector.jpg",
+      "id": 1674980869952,
+      "level": "user",
+      "isBanned": false
+    }
+  ]
+}
